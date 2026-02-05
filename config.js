@@ -23,12 +23,12 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I DONT LIKE you, I LOVE YOU! ❤️"           // Secret hover message
+            yesBtn: "SI",                                             // Text for "Yes" button
+            noBtn: "NEIN",                                               // Text for "No" button
+            secretAnswer: " I LOVE YOU!!!❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How cute so How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "My my arent you just the sweetest lesbean?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "TO THE SKIES AND ABOVE💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "My my arent you just the sweetest lesbean🫘💝",  // Shows when they go past 5000%
+        high: "TO THE PILLARS OF CREATION AND BACK",              // Shows when they go past 1000%
+        normal: "TO THE SKY AND BEYOND"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "HELL YEAH IM THE LUCKIEST GUY ON THE PLANET! 🎉💝💖💝💓",
-        message: "Now come get your MWAHS and lets get that chicken samosa",
+        title: "HELL YEAH IM THE LUCKIEST GUY ON THE PLANET! 🎉🖤💖💓",
+        message: "Now come get your MWAHS and lets get that chicken samosa AND SOME DESSERT🍰",
         emojis: "🎁💖🦌⛓️🖤💝❤️💕"  // These will bounce around
     },
 
